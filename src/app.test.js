@@ -3,7 +3,7 @@ import assert from 'node:assert';
 import { greet } from './app.js';
 
 test('greet returns a personalized message', () => {
-    assert.strictEqual(greet('Raghavendra'), 'Hello, Raghavendra!');
+    assert.strictEqual(greet('Raghavendra'), 'Hello, Wrong!');
 });
 
 test('greet returns a default message for empty input', () => {
