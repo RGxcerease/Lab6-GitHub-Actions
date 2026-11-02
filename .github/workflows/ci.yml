@@ -70,5 +70,5 @@ jobs:
           context: ./shopeasy-lite
           push: true
           tags: |
-ghcr.io/rgxcerease/shopeasy-lite:v${{ github.run_number }}
-ghcr.io/rgxcerease/shopeasy-lite:latest
+            ghcr.io/rgxcerease/shopeasy-lite:v${{ github.run_number }}
+            ghcr.io/rgxcerease/shopeasy-lite:latest
